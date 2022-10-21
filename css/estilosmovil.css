@@ -1,0 +1,206 @@
+
+@media only screen and (max-width:700px){
+  body {
+  	font-size: 60%;
+  	background-color: #ffcb8e; 
+  }
+
+/*estilos de menu de navegacion */
+header {
+	background-color: #f4ebc1;
+	width: 97%; 
+	position: fixed;
+	z-index: 100; 
+}
+
+/*estilos de menu de navegacion */
+
+nav {
+	float: center; /*acomodo de la caja que contiene al menu */
+
+}
+
+nav ul {
+	overflow: hidden; /*crea bloques de los elementos */
+	
+}
+
+nav ul li { /*acomodo del menu, tipografia y tamaño */
+	float: left;
+	font-family: Arial;
+	font-style: 30px;
+	list-style: none;
+
+}
+
+nav ul li a{
+	display: block;
+	padding: 5px;
+	color: #blue;
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	background: #70adb5; /*color cuando pasa el puntero */
+}
+
+h1 {
+	color: #fff;
+	font-size: 40px;
+	background-color: #133b5c;
+	text-align: center;
+	
+}
+
+h2 {
+	color: #1d2d50;
+	background-color: #4e89ae;
+	padding: 10px;
+	font-size: 30px;
+	font-family: Arial bold; 
+
+}
+
+h3 {
+	color: black;
+	font-size: 20px;
+
+
+}
+
+p {
+	color: blue;
+	font-size: 25px;
+	text-indent: 35px;
+	text-align: justify;
+	font-family: Arial;
+	margin-bottom: 20px;
+}
+
+a{
+	color: blue;
+}
+
+/*estilos imagenes superiores class="imgsup"*/
+
+.imgsup {
+	width: 100%;
+	height: auto;
+
+}
+
+.imgp {
+	width: 100%;
+	height: auto;
+	padding: 20px 20px 20px 0px;
+
+}
+
+/* estilos css clases e id*/
+a.contacto {
+	color: black;
+}
+
+a.menu {
+	color: black;
+	font-size: 12px; 
+}
+
+#plaza{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px;
+}
+
+#hacienda{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px;
+}
+
+#mina{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px;
+}
+
+#mirador{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px; 
+}
+
+#cafe{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px; 
+}
+
+/* estilos galeria */
+.galeria {
+
+	display: flex;
+  	flex-wrap: wrap;
+
+/*estilo de footer*/
+}
+footer {
+	left: 0; 	
+	bottom: 0;
+	width: 91%;
+	background-color: #f6f7d4;
+	text-align: center;
+}
+
+/* formato apra formulario se agregaron etiquetas div y label para dar estilo en css */
+.formulario {
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px 10px 10px;
+	margin-top: 50px;
+	background-color: #70adb5;
+	width: auto;
+
+}
+
+.formulario label{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+
+
+.formulario div{
+    margin-bottom: 30px;
+    display: block;
+    justify-content: center;
+
+}
+
+/* estilo del boton */
+.formulario input[type='text'], .formulario textarea{
+	padding: 6px 0px;
+	width: 100%;
+	border: 3px solid black;
+	margin: 5px 0;
+}
+
+.formulario input[type='submit']{
+    border: 1px solid #CED5D7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+.ligas {
+
+	font-size: 20px;
+}

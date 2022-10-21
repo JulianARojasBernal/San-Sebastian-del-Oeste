@@ -1,0 +1,219 @@
+/* Estilos CSS para Sitio Web San Sebastian del Oeste */ 
+body {
+	margin: 10px 10px 10px 10px; /*limite de distancia en los bordes del navegador*/
+	background-color: #FFDAB9;
+	font-family: Times New Roman;
+
+}
+
+/*estilo a header  para poner menu fijo en el scroll*/
+
+header {
+	background-color: #1d2d50;
+	width: 99%; 
+	position: fixed;
+	z-index: 100; 
+}
+
+nav {
+	float: center; /*acomodo de la caja que contiene al menu */
+
+}
+
+nav ul {
+	overflow: hidden; /*crea bloques de los elementos */
+	
+}
+
+nav ul li { /*acomodo del menu, tipografia y tamaño */
+	float: left;
+	font-family: Arial;
+	font-style: 30px;
+	list-style: none;
+
+}
+
+nav ul li a{
+	display: block;
+	padding: 20px;
+	color: #blue;
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	background: #407088; /*color cuando pasa el puntero */
+}
+  
+
+
+/* Estilos de Titulos y Parrafos */
+
+h1 {
+	color: #fff;
+	font-size: 40px;
+	background-color: #407088;
+	text-align: center;
+	
+}
+
+h2 {
+	color: #fff;
+	background-color: #1d2d50;
+	padding: 10px;
+	font-size: 30px;
+	font-family: Arial bold;
+
+}
+
+h3 {
+	color: #1e5f74;
+	font-size: 20px;
+
+
+}
+
+p {
+	color: black;
+	font-size: 25px;
+	text-indent: 35px;
+	text-align: justify;
+	font-family: Arial;
+	margin-bottom: 20px;
+}
+
+a{
+	color: blue;
+}
+
+/*estilos imagenes superiores class="imgsup"*/
+
+.imgsup {
+	width: 100%;
+	height: auto;
+
+}
+
+.imgp {
+	width: 100%;
+	height: auto;
+	padding: 20px 20px 20px 0px;
+
+}
+
+
+/* estilos css clases e id*/
+a.contacto {
+	color: black;
+}
+
+a.menu {
+	color: #fff;
+}
+
+#plaza{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px;
+
+
+}
+
+#hacienda{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px;
+}
+#mina{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px;
+}
+#mirador{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px; 
+}
+#cafe{
+
+	color: #1d2d50;
+	text-align: center;
+	font-size: 30px; 
+}
+
+/* estilos galeria */
+.galeria {
+
+	display: flex;
+  	flex-wrap: wrap;
+  	
+}
+
+.videos {
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+
+}
+
+/*estilo del footer */
+footer {
+	left: 0; 	
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	color: #fff;
+	text-align: center;
+}
+
+/* formato apra formulario se agregaron etiquetas div y label para dar estilo en css */
+.formulario {
+	border: 5px solid black;
+	border-radius: 15px;
+	padding: 20px 10px 10px;
+	margin-top: 50px;
+	background-color: #407088;
+	width: auto;
+
+}
+
+.formulario label{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    
+}
+
+
+.formulario div{
+    margin-bottom: 30px;
+    display: block;
+    justify-content: center;
+
+}
+
+/* estilo del boton */
+.formulario input[type='text'], .formulario textarea{
+	padding: 6px 0px;
+	width: 100%;
+	border: 3px solid black;
+	margin: 5px 0;
+}
+
+.formulario input[type='submit']{
+    border: 1px solid #CED5D7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+
+
+.ligas {
+
+	font-size: 20px;
+}
